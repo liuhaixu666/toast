@@ -15,6 +15,8 @@
 		04E26759209465CC0088BBDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E26758209465CC0088BBDC /* main.m */; };
 		04E26763209465CD0088BBDC /* Toast___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E26762209465CD0088BBDC /* Toast___Tests.m */; };
 		04E2676E209465CD0088BBDC /* Toast___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E2676D209465CD0088BBDC /* Toast___UITests.m */; };
+		04E2677D20946A2A0088BBDC /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E2677B20946A2A0088BBDC /* UIView+Toast.m */; };
+		04E2677F20946BC30088BBDC /* timg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 04E2677E20946BC30088BBDC /* timg.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		04E26769209465CD0088BBDC /* Toast 吐丝UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Toast 吐丝UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E2676D209465CD0088BBDC /* Toast___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Toast___UITests.m"; sourceTree = "<group>"; };
 		04E2676F209465CD0088BBDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04E2677B20946A2A0088BBDC /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+		04E2677C20946A2A0088BBDC /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		04E2677E20946BC30088BBDC /* timg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timg.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +106,9 @@
 		04E26748209465CC0088BBDC /* Toast 吐丝 */ = {
 			isa = PBXGroup;
 			children = (
+				04E2677E20946BC30088BBDC /* timg.jpeg */,
+				04E2677C20946A2A0088BBDC /* UIView+Toast.h */,
+				04E2677B20946A2A0088BBDC /* UIView+Toast.m */,
 				04E26749209465CC0088BBDC /* AppDelegate.h */,
 				04E2674A209465CC0088BBDC /* AppDelegate.m */,
 				04E2674C209465CC0088BBDC /* ViewController.h */,
@@ -239,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04E26756209465CC0088BBDC /* LaunchScreen.storyboard in Resources */,
+				04E2677F20946BC30088BBDC /* timg.jpeg in Resources */,
 				04E26753209465CC0088BBDC /* Assets.xcassets in Resources */,
 				04E26751209465CC0088BBDC /* Main.storyboard in Resources */,
 			);
@@ -265,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04E2677D20946A2A0088BBDC /* UIView+Toast.m in Sources */,
 				04E2674E209465CC0088BBDC /* ViewController.m in Sources */,
 				04E26759209465CC0088BBDC /* main.m in Sources */,
 				04E2674B209465CC0088BBDC /* AppDelegate.m in Sources */,
